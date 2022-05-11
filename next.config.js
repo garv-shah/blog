@@ -9,6 +9,7 @@ module.exports = withBundleAnalyzer({
   assetPrefix: isProd ? '/blog/' : '',
   staticPageGenerationTimeout: 300,
   images: {
+    loader: 'akamai',
     domains: [
       'www.notion.so',
       'notion.so',

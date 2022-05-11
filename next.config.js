@@ -9,7 +9,8 @@ module.exports = withBundleAnalyzer({
   assetPrefix: isProd ? '/blog/' : '',
   staticPageGenerationTimeout: 300,
   images: {
-    loader: 'akamai',
+    loader: "akamai",
+    path: "https://garv-shah.github.io",
     domains: [
       'www.notion.so',
       'notion.so',

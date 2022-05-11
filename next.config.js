@@ -3,7 +3,10 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true'
 })
 
+const isProd = process.env.NODE_ENV === 'production'
+
 module.exports = withBundleAnalyzer({
+  assetPrefix: isProd ? '' : '',
   staticPageGenerationTimeout: 300,
   images: {
     domains: [
@@ -13,7 +16,7 @@ module.exports = withBundleAnalyzer({
       'pbs.twimg.com',
       'abs.twimg.com',
       's3.us-west-2.amazonaws.com',
-      'transitivebullsh.it'
+      'garv-shah.github.io'
     ],
     formats: ['image/avif', 'image/webp'],
     dangerouslyAllowSVG: true,

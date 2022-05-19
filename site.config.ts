@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: "Garv's Blog",
-  domain: 'garv-shah.github.io/blog',
+  domain: 'garv-shah.vercel.app',
   author: 'Garv Shah',
 
   // open graph metadata (optional)

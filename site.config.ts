@@ -2,23 +2,26 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '100d33818efa4708a75a2e5aec7b4962',
+  rootNotionPageId: '7875426197cf461698809def95960ebf',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: "Garv's Blog",
-  domain: 'garv-shah.github.io/blog',
-  author: 'Garv Shah',
+  name: 'Next.js Notion Starter Kit',
+  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  author: 'Travis Fischer',
 
   // open graph metadata (optional)
-  description: "Garv Shah's Blog",
+  description: 'Example Next.js Notion Starter Kit Site',
 
   // social usernames (optional)
-  github: 'garv-shah',
-  linkedin: 'garvshah',
+  twitter: 'transitive_bs',
+  github: 'transitive-bullshit',
+  linkedin: 'fisch2',
+  // newsletter: '#', // optional newsletter URL
+  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
